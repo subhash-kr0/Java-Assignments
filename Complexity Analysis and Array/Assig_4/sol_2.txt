@@ -1,0 +1,14 @@
+To find the value of 
+
+T(2) = 3T(1)+12×2
+=3(3T(0)+12×1)+12×2
+=3(3×5+12)+24
+=3(15+12)+24
+=3×27+24
+=81+24
+=105
+​
+ 
+Therefore, 
+�(2) = 105
+T(2)=105 for the given recurrence relation with the initial condition T(0) = 5

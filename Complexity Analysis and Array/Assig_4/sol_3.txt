@@ -1,0 +1,38 @@
+
+To solve the recurrence relation 
+T(n)=T(n−1)+c using the substitution method, we'll make an initial guess and then use mathematical induction to prove our guess.
+
+Guess:
+T(n)=T(n−1)+c
+
+Base Case:
+Let's check the base case:
+
+For 
+n=1:
+T(1)=T(1−1)+c=T(0)+c
+
+Inductive Step:
+Assume the hypothesis is true for 
+
+n=k, i.e., 
+
+T(k)=T(k−1)+c.
+
+Now, let's prove it for 
+
+n=k+1:
+
+T(k+1)=T((k+1)−1)+c=T(k)+c
+
+=(T(k−1)+c)+c=T(k−1)+2c
+
+So, our assumption holds for 
+n=k+1 as well.
+
+Conclusion:
+The solution to the recurrence relation 
+
+T(n)=T(n−1)+c is 
+T(n)=T(0)+nc, where 
+T(0) is the initial condition.

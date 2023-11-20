@@ -1,0 +1,12 @@
+The given recurrence relation is of the form:
+T(n)=aT( b/n)+f(n)
+
+where a=16, b=4, and f(n)=n^2logn.
+
+To apply the master theorem, we compare 
+
+f(n) with n^logba
+
+Therefore, the time complexity of the given recurrence relation is:
+
+T(n)=Θ(n^2 log n)

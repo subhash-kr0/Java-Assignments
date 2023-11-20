@@ -1,0 +1,14 @@
+
+The given Java code calculates the sum of the first n natural numbers using nested loops. The outer loop runs from 1 to n, and the inner loop runs from 1 to the current value of the outer loop index i. In each iteration of the inner loop, the variable sum is incremented.
+
+Let's analyze the time complexity of the code:
+
+The outer loop runs n times, and for each iteration of the outer loop, the inner loop runs i times. Therefore, the total number of iterations is the sum of the first n natural numbers, which is given by the formula n(n + 1)/2.
+
+So, the time complexity of the code is O(n^2).
+
+To improve the performance, you can take advantage of the mathematical formula for the sum of the first n natural numbers, which is n(n + 1)/2. The code can be simplified to:
+
+
+int sum = (n * (n + 1)) / 2;
+This reduces the time complexity to O(1), as the computation is now done in constant time, regardless of the value of n. Using mathematical formulas to optimize common calculations can significantly improve the efficiency of your code.
