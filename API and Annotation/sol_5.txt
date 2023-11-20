@@ -1,0 +1,26 @@
+
+
+5. What are in built annotations in java
+
+Ans: built-in annotations in Java:
+
+@Override 
+
+@Deprecated
+
+
+@SuppressWarnings
+
+@FunctionalInterface
+
+@Retention
+
+@Target 
+
+@Documented 
+
+@Inherited 
+
+These built-in annotations in Java are used to provide additional information to the Java compiler and other 
+tools. They help improve code readability, maintainability, and safety by enforcing specific rules and behaviours 
+in Java code.
