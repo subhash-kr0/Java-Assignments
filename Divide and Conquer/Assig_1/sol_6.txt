@@ -1,0 +1,9 @@
+In the Quick Select algorithm, which element is chosen as the pivot element?
+a) The first element
+b) The middle element
+c) The last element
+d) A random element
+
+sol:-
+
+The pivot element in the Quick Select algorithm can be chosen in several ways, depending on the specific implementation of the algorithm. So, the correct answers are a) The first element, b) The middle element, c) The last element, and d) A random element.

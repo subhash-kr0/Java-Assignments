@@ -1,0 +1,9 @@
+Which partitioning scheme is used in Quick Select algorithm?
+a) Lomuto partition scheme
+b) Hoare partition scheme
+c) Merge sort partition scheme
+d) Heap sort partition scheme
+
+sol:-
+
+The Quick Select algorithm can use either the Lomuto partition scheme or the Hoare partition scheme. So, the correct answers are a) Lomuto partition scheme and b

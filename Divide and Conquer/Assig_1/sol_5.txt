@@ -1,0 +1,9 @@
+What is the worst-case time complexity of Quick Select algorithm?
+a) O(n)
+b) O(n^2)
+c) O(nlogn)
+d) O(logn)
+
+sol:-
+
+The worst-case time complexity of the Quick Select algorithm is O(n^2). So, the correct answer is b) O(n^2).

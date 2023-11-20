@@ -1,0 +1,9 @@
+Which data structure is used in Quick Select algorithm?
+a) Linked List
+b) Array
+c) Binary Tree
+d) Stack
+
+sol:-
+
+The Quick Select algorithm primarily uses an Array as its data structure. So, the correct answer is b) Array.
