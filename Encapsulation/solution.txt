@@ -1,0 +1,131 @@
+Assignment Questions
+Encapsulation
+
+Q-1} What is Encapsylation
+
+Ans: 
+Encapsulation is one of the four fundamental object-oriented programming (OOP) concepts, along with inheritance, polymorphism, and abstraction. It refers to the bundling of data (attributes or fields) and methods (functions or procedures) that operate on the data into a single unit known as a class. Additionally, it involves restricting access to some of the object's components.
+
+
+Q-2} What are the important Features of Encapsulation
+
+Ans: 
+
+Encapsulation is an important concept in object-oriented programming, and it comes with several features that contribute to the organization, security, and maintainability of code. Here are the key features of encapsulation:
+
+1.Data Hiding
+2.Access Control
+3.Implementation Flexibility
+4.Security
+5.Code organization
+
+
+Q-3} What are gette and setter methods in java Explain with example
+
+Ans:
+Getter and setter methods in Java are used to access and modify the private fields (attributes or properties) of a class. These methods are part of the encapsulation concept and provide controlled access to the internal state of an object. Here's an explanation with an example:
+
+Example :Class with Getter and Setter Methods:
+
+public class Person {
+    // Private fields (encapsulated data)
+    private String name;
+    private int age;
+
+    // Getter methods (provide read-only access)
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    // Setter methods (provide controlled write access)
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setAge(int age) {
+        if (age > 0) {
+            this.age = age;
+        }
+    }
+}
+
+
+Q-4} What is the use of this keyword explain with example
+
+Ans:
+
+In Java, the this keyword is a reference variable that refers to the current object. It is commonly used within instance methods and constructors to refer to the current instance of the class. The primary purposes of the this keyword are to differentiate instance variables from local variables when they have the same name and to invoke the current object's methods and constructors. 
+
+Example:
+
+public class MyClass {
+    private int x;
+
+    public void setX(int x) {
+        // Use of "this" to differentiate instance variable from local variable
+        this.x = x;
+    }
+
+    public void printX() {
+        // Use of "this" is optional here, but it clarifies that x is an instance variable
+        System.out.println("Value of x: " + this.x);
+    }
+}
+
+
+Q-5} What is Advantage of Encapsulation 
+
+Ans:
+
+Encapsulation in object-oriented programming offers several advantages that contribute to the robustness, security, and maintainability of code. Here are the key advantages of encapsulation:
+
+1.Controlled Access
+2.Security
+3.Modularity
+4.Code Organization
+5.Flexibility and Versioning
+
+
+Q-6} How to achieve Encapsulation in Java? give an Example
+
+Ans:
+Encapsulation in Java is achieved by using access modifiers to control the visibility of class members (fields, methods, and nested classes). The commonly used access modifiers are private, protected, default (package-private), and public. Here's an example demonstrating encapsulation:
+
+public class Person {
+    // Private fields (encapsulated data)
+    private String name;
+    private int age;
+
+    // Public constructor
+    public Person(String name, int age) {
+        // Initialization through constructor
+        this.name = name;
+        this.age = age;
+    }
+
+    // Public getter methods (provide read-only access)
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    // Public setter methods (provide controlled write access)
+    public void setName(String name) {
+        // Validation or additional logic can be added here
+        this.name = name;
+    }
+
+    public void setAge(int age) {
+        // Validation or additional logic can be added here
+        if (age > 0) {
+            this.age = age;
+        }
+    }
+}
