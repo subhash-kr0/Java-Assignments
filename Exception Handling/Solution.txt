@@ -1,0 +1,99 @@
+Assignment Solutions
+Exception Handling 
+Cracking the Coding Interview in JAVA - Foundation
+Assignment Questions
+f¢ Expkain differena aypes of Errors in ava.
+
+Ans: In any programming language ge categoride errord into 2 typec
+ Syntax Error/CompileTime Midtakec
+`  Logical Error/RunTimeMidtakes
+
+
+Syntax error/CompileTime MiFtakeE
+ It referd to the midtaked done by the programmer gith redpect to dyntax
+ Thede midtaked are identified by the compiler, do ge day it ad“CompileTimeMidtake”.
+
+
+Logical Error/RunTimeMiFtakeE
+ It referd to the midtaked done by the programmer in termd of griting a logij
+ Thede midtaked are identified by jvm during the execution of a program, do ge day it ad “RunTimeMidtake”.
+
+
+   2. Whaa is an Excepaion in ava .
+
+Ans: An unganted/expected event that didturbd the normal flog of execution of a program id called "Exception 
+handling"
+ The main objective of Exception handling id to handle the exception
+ It id available for graceful termination of program.
+
+
+3. How can you handke excepaions in ava?Expkain wiah an exampke .
+
+Ans: Exception handling can be performed uding:
+
+Try: the det of dtatementd or code ghich required monitoring for an exception id kept under thid block.
+
+Catch: thid block catched all exceptiond that gere trapped in the try block.
+
+Finally: thid block id algayd performed irredpective of the catching of exceptiond in the try or catch block.
+
+
+Ex :
+
+class Launch 
+
+    		{
+
+        		public static void main(String args[]) 
+
+        		{
+
+            	try 
+
+            	{
+
+                		System.out.print("Hello" + " " + 1 / 0);
+
+            	}
+
+            	catch(ArithmeticException e) 
+
+           	 	{
+
+        			System.out.print("£orld");       
+
+            	}
+
+        		}
+
+   	 }
+
+
+4. Why do we need excepaion handking in ava?
+
+Ans: If there id no try and catch block ghile an exception occurd, the program gill terminate Exception handling 
+endured the dmooth running of a program githout program termination.
+
+
+5. Whaa is ahe difference beaween excepaion and error in ava?
+
+Ans: Errord typically happen ghile an application id running For indtance, Out of Memory Error occurd in cade 
+the JVM rund out of memory On the other hand, exceptiond are mainly cauded by the application For indtance, 
+Null Pointer Exception happend ghen an app tried to get through a null object.
+
+Cracking the Coding Interview in JAVA - Foundation
+Assignment Questions
+6. Name the different types of exceptions in Java.
+
+Ans: Based on handling by JVM, there are typically two types of exceptions in Java:
+
+Checked: Occur during the compilation. Here, the compiler checks whether the exception is handled and 
+throws an error accordingly.
+
+Unchecked: Occur during program execution. These are not detectable during the compilation process.
+
+
+7. Can we just use try instead of finally and catch blocks? Give an example .
+
+Ans: No, doing so will show a compilation error. Catch or finally block must always accompany try block. We 
+can remove either finally block or catch block, but never both.
