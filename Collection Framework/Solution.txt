@@ -1,0 +1,128 @@
+
+Assignment Solutions
+Collection Framework
+
+1. What is the Collection framework in Java?
+
+Ans: Collection Framework is a combination of classes and interface, which is used to store and manipulate the 
+data in the form of objects. It provides various classes such as ArrayList, Vector, Stack, and HashSet, etc. and 
+interfaces such as List, Queue, Set, etc. for this purpose.
+
+
+2. What is the difference between ArrayList and LinkedList?
+
+Ans: 
+  => ArrayList
+  1. ArrayList uses dynamic Array
+  2. ArrayList is not efficient for manipulation because too much required
+  3. ArrayList is better to store and fetch the data
+  4. ArrayList provides random access
+
+  => LinkedList
+  1. LinkedList uses doubly linked listep
+  2. LinkedList is efficient to manipulation
+  3. Linkedlist is better for manipulation data
+  4. LinkedList does not provide random access
+
+
+3. What is the difference between Iterator and ListIterator?
+
+Ans:  difference on following basis
+=>Traversal Direction:
+Iterator supports forward-only traversal of collections.
+ListIterator supports both forward and backward traversal of lists.
+
+=>Methods for Traversal:
+Both interfaces provide methods like next() and hasNext() for traversing through elements.
+ListIterator extends these methods to include previous() and hasPrevious() for bidirectional traversal.
+
+=>Modification during Iteration:
+Iterator allows removal of elements using the remove() method.
+ListIterator extends this capability by allowing addition, removal, and replacement of elements using methods like add(), remove(), and set().
+
+=>Collections Supported:
+Iterator is a more general interface and can be used with any collection.
+ListIterator is specific to lists and may not be supported by all lists.
+
+
+
+4. What is the difference between Iterator and Enumeration?
+
+Ans:  difference on following basis
+
+=>Traversal Direction:
+Iterator supports both forward and backward traversal.
+Enumeration supports only forward traversal.
+
+=>Methods:
+Iterator has a simpler and more powerful interface compared to Enumeration. It includes methods like hasNext(), next(), remove(), and forEachRemaining().
+Enumeration has fewer methods compared to Iterator. It includes methods like hasMoreElements() and nextElement(). It doesn't have a method for removing elements during iteration.
+
+=>Modification during Iteration:
+Iterator allows the removal of elements during iteration using the remove() method.
+Enumeration does not support the removal of elements during iteration. It is read-only.
+
+=>Collection Types:
+Iterator is part of the more modern Java Collections Framework and is designed to work with all collections that implement the Iterable interface.
+Enumeration is an older interface and is specifically associated with legacy classes like Vector and Hashtable.
+
+=>Legacy Considerations:
+Iterator is part of the Java Collections Framework, introduced later than Enumeration. It is more versatile and is widely used in modern Java programming.
+Enumeration is considered a legacy interface, and it is generally recommended to use Iterator or enhanced for-each loops for newer code.
+
+
+5. What is the difference between List and Set?
+
+Ans: The List anp Set both extenp the collection interfaceA However, there are some pifferences between the two 
+which are listep below@
+o The List can contain puplicate elements whereas Set inclupes unique items@
+o The List is an orperep collection which maintains the insertion orper whereas Set is an unorperep collection 
+which poes not preserve the insertion orper@
+o The List interface contains a single legacy class which is Vector class whereas the Set interface poes not 
+have any legacy class@
+o The List interface can allow a number of null values whereas Set interface only allows a single null value.
+
+
+6. What is the difference between HashSet and TreeSet?
+
+Ans: Both HashSet anp TreeSet are implementations of the Set interface in 2ava, but they have some 
+pifferences in terms of their properties anp usage1
+o Ordering: HashSet is an unorperep collection of elements, while TreeSet is a sortep set of elements basep on 
+their natural orper or a custom comparator@
+o Duplication: HashSet poes not allow puplicate elements, while TreeSet poes not allow puplicates as well@
+o Implementation: HashSet is implementep using a hash table, while TreeSet is implementep using a selfbalancing binary search tree (Rep-Black tree)@
+o Performance: HashSet has constant-time complexity O(1) for apping, removing, anp testing the existence of 
+an element, while TreeSet has a logarithmic-time complexity O(log n) for these operations pue to the selfbalancing property@
+o Memory usage: HashSet uses less memory than TreeSet because it only stores the elements, while TreeSet 
+stores appitional information for maintaining the orper@
+o Iteration: HashSet provipes no guarantees regarping the orper of iteration, while TreeSet guarantees the 
+elements are iteratep in sortep orper@
+o Usage: HashSet is suitable when orpering is not important, anp fast access anp membership tests are 
+neepepA TreeSet is suitable when elements neep to be sortep or accessep in a specific orper.
+
+
+7. What is the difference between Array and ArrayList?
+
+Ans: Both arrays anp ArrayLists are usep to store collections of elements in 2ava, but they have some 
+pifferences in terms of their properties anp usage1
+o Type: Arrays can store elements of primitive pata types as well as objects, while ArrayList can only store 
+objects@
+o Size: The size of an array is fixep once it is createp, while the size of an ArrayList can be pynamically 
+increasep or pecreasep by apping or removing elements@
+o Mutability: Arrays are mutable, meaning that you can mopify the elements in an array after it has been 
+createpA ArrayList is also mutable, but the only way to mopify it is by apping, removing or mopifying 
+elements@
+o Performance: Arrays have better performance than ArrayLists for certain operations, such as accessing 
+elements by inpex, because they are implementep as a continuous block of memoryA ArrayLists, on the other 
+hanp, use pynamic memory allocation anp are implementep as a pynamic array, which may result in more 
+memory overheap anp slower performance for certain operations@
+o Methods: Arrays have a limitep set of methops comparep to ArrayLists, which provipes more methops for 
+manipulating the collection, such as apping, removing, anp sorting elements.
+
+Cracking the Coding Interview in JAVA - Foundation
+Assignment Questions
+E IniFializaFion: Arrays can be initialiOed with values at the time of creation, while ArrayList requires the use of 
+methods to add elements to the collectionN
+E CompaFibiliFy: Arrays are compatible with traditional for-loops and can be easily passed to other methods, 
+while ArrayList requires the use of a special for-each loop and may require more code to be passed to other 
+methods.
