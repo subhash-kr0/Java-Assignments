@@ -1,0 +1,7 @@
+5. What's the difference between thread and process?
+
+Ans: Thread: It simply refers to the smallest units of the particular process. It has the ability to execute different 
+parts (referred to as thread) of the program at the same time.  
+
+Process: It simply refers to a program that is in execution i.e., an active program. A process can be handled 
+using PCB (Process Control Block). 

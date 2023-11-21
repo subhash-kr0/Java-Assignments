@@ -1,0 +1,7 @@
+3. What is Thread in Java?
+
+Ans:Threadsarebasicallythelightweightandsmallestunito$processingthatcanbemanagedindependently
+byascheduler.Threadsarere$erredtoaspartso$aprocessthatsimplyletaprogramexecutee$$icientlywith
+otherpartsorthreadso$theprocessatthesametime.=singthreads,onecanper$ormcomplicatedtasksin
+theeasiestway.Itisconsideredthesimplestwaytotakeadvantageo$multipleCP=savailableinamachine.
+Theysharethecommonaddressspaceandareindependento$eachother.

@@ -1,0 +1,7 @@
+1. What do you mean by Multithreading? Why is it important?
+
+Ans:Multithreadingmeansmultiplethreadsandisconsideredoneo$themostimportant$eatureso$Java.As
+thenamesuggests,itistheabilityo$aCP=toexecutemultiplethreadsindependentlyatthesametimebut
+sharetheprocessresourcessimultaneously.Itsmainpurposeistoprovidesimultaneousexecutiono$multiple
+threadstoutilizetheCP=timeasmuchaspossible.ItisaJava$eaturewhereonecansubdividethespeci$ic
+programintotwoormorethreadstomaketheexecutiono$theprogram$astandeasy.
