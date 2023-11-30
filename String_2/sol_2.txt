@@ -1,0 +1,32 @@
+In Java, you can concatenate two strings using the + operator or the concat method. Here are examples of both approaches:
+
+Using the + operator:
+public class StringConcatenationExample {
+    public static void main(String[] args) {
+        // Two strings to concatenate
+        String str1 = "Hello";
+        String str2 = "World";
+
+        // Concatenation using the + operator
+        String result = str1 + " " + str2;
+
+        // Display the result
+        System.out.println(result);
+    }
+}
+
+
+Using the concat method:
+public class StringConcatenationExample {
+    public static void main(String[] args) {
+        // Two strings to concatenate
+        String str1 = "Hello";
+        String str2 = "World";
+
+        // Concatenation using the concat method
+        String result = str1.concat(" ").concat(str2);
+
+        // Display the result
+        System.out.println(result);
+    }
+}

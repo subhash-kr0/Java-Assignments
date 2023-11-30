@@ -1,0 +1,45 @@
+In Java, you can compare two strings using the equals() method for content equality or the compareTo() method for lexicographical (dictionary) ordering. Here are examples for both:
+
+Using equals() method for content equality:
+
+public class StringComparisonExample {
+    public static void main(String[] args) {
+        // Example strings
+        String str1 = "Hello";
+        String str2 = "Hello";
+        String str3 = "World";
+
+        // Compare str1 and str2 for content equality
+        boolean isEqual1 = str1.equals(str2);
+        System.out.println("str1 equals str2: " + isEqual1);
+
+        // Compare str1 and str3 for content equality
+        boolean isEqual2 = str1.equals(str3);
+        System.out.println("str1 equals str3: " + isEqual2);
+    }
+}
+
+
+
+Using compareTo() method for lexicographical ordering:
+
+public class StringComparisonExample {
+    public static void main(String[] args) {
+        // Example strings
+        String str1 = "apple";
+        String str2 = "banana";
+        String str3 = "cherry";
+
+        // Compare str1 and str2 lexicographically
+        int result1 = str1.compareTo(str2);
+        System.out.println("str1.compareTo(str2): " + result1);
+
+        // Compare str2 and str1 lexicographically
+        int result2 = str2.compareTo(str1);
+        System.out.println("str2.compareTo(str1): " + result2);
+
+        // Compare str1 and str3 lexicographically
+        int result3 = str1.compareTo(str3);
+        System.out.println("str1.compareTo(str3): " + result3);
+    }
+}
